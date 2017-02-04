@@ -1,0 +1,80 @@
+# Unmedia default blocklist
+# Blocking alt-facts and post-truth news sites in Bulgarian
+#
+# Contribute:
+# Create an issue at https://github.com/
+#
+# Changelog:
+# 2017-02-04 Now hosted on GitHub 
+#
+# License:
+# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+#
+
+0.0.0.0 19min.bg
+0.0.0.0 1kam1.eu
+0.0.0.0 30dumi.eu
+0.0.0.0 afera.bg
+0.0.0.0 alterinformation.wordpress.com
+0.0.0.0 anonybulgaria.wordpress.com
+0.0.0.0 bez-cenzura.com
+0.0.0.0 bezpartien.com
+0.0.0.0 bgview.info
+0.0.0.0 bgkef.com
+0.0.0.0 bgnow.eu
+0.0.0.0 big5.bg
+0.0.0.0 bgjournal.info
+0.0.0.0 blife.eu
+0.0.0.0 blitz.bg
+0.0.0.0 bnews.bg
+0.0.0.0 bradva.bg
+0.0.0.0 bultimes.com
+0.0.0.0 bulgaria365.info
+0.0.0.0 chujdozemec.com
+0.0.0.0 www.dailypress.bg
+0.0.0.0 delo.bg
+0.0.0.0 desinfowar.wordpress.com
+0.0.0.0 dnes-24.com
+0.0.0.0 dnesnovinite.com
+0.0.0.0 epicenter.bg
+0.0.0.0 www.e-vesti.co.uk
+0.0.0.0 gol.bg
+0.0.0.0 hashtag-bg.com
+0.0.0.0 hipotezi.com
+0.0.0.0 hristiqni.com
+0.0.0.0 koch.bg
+0.0.0.0 komentari.com
+0.0.0.0 kp.ru
+0.0.0.0 lentata.com
+0.0.0.0 mall359.com
+0.0.0.0 mejdu-redovete.com
+0.0.0.0 mignews.info
+0.0.0.0 nakafe.eu
+0.0.0.0 nbox.bg
+0.0.0.0 newsbp.com
+0.0.0.0 news-front.info
+0.0.0.0 no-comment.bg
+0.0.0.0 novini.cc
+0.0.0.0 novinar888.com
+0.0.0.0 onovini.com
+0.0.0.0 ovarna.bg
+0.0.0.0 petel.bg
+0.0.0.0 pik.bg
+0.0.0.0 playradio.bg
+0.0.0.0 pogled.info
+0.0.0.0 rusiadnes.bg
+0.0.0.0 rusofili.bg
+0.0.0.0 sofiautre.bg
+0.0.0.0 sosnovini.bg
+0.0.0.0 sekirabg.com
+0.0.0.0 spekulanti.com
+0.0.0.0 spodeli.eu
+0.0.0.0 struma.bg
+0.0.0.0 svobodnoslovo.eu
+0.0.0.0 tetradka.eu
+0.0.0.0 vestnikataka.bg
+0.0.0.0 velikabulgaria.eu
+0.0.0.0 vlasti.bg
+0.0.0.0 webnovinar.com
+0.0.0.0 worldtodaybg.com
+0.0.0.0 zajenata.bg
