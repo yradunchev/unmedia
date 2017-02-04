@@ -6,6 +6,7 @@
 #
 # Changelog:
 # 2017-02-04 Now hosted on GitHub 
+# 2017-02-04 Last Update
 #
 # License:
 # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
@@ -64,6 +65,7 @@
 0.0.0.0 pogled.info
 0.0.0.0 rusiadnes.bg
 0.0.0.0 rusofili.bg
+0.0.0.0 skafeto.com
 0.0.0.0 sofiautre.bg
 0.0.0.0 sosnovini.bg
 0.0.0.0 sekirabg.com
