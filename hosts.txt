@@ -2,7 +2,7 @@
 # Blocking alt-facts and post-truth news sites in Bulgarian
 #
 # Contribute:
-# Create an issue at https://github.com/
+# Create an issue at https://github.com/yradunchev/unmedia/issues
 #
 # Changelog:
 # 2017-02-04 Now hosted on GitHub 
