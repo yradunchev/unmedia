@@ -6,7 +6,7 @@
 #
 # Changelog:
 # 2017-02-04 Now hosted on GitHub 
-# 2017-02-04 Last Update
+# 2017-02-05 Last Update
 #
 # License:
 # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
@@ -29,6 +29,7 @@
 0.0.0.0 blitz.bg
 0.0.0.0 bnews.bg
 0.0.0.0 bradva.bg
+0.0.0.0 bultimes.bg
 0.0.0.0 bultimes.com
 0.0.0.0 bulgaria365.info
 0.0.0.0 chujdozemec.com
