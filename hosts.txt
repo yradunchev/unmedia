@@ -41,6 +41,7 @@
 0.0.0.0 epicenter.bg
 0.0.0.0 www.e-vesti.co.uk
 0.0.0.0 gol.bg
+0.0.0.0 gospodari.com
 0.0.0.0 hashtag-bg.com
 0.0.0.0 hipotezi.com
 0.0.0.0 hristiqni.com
