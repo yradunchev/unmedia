@@ -1,13 +1,10 @@
-# Unmedia blocklist
+#BEGIN Unmedia blocklist
 # Blocking alt-facts and post-truth news sites in Bulgarian
-#
 # Contribute:
 # Create an issue at https://github.com/yradunchev/unmedia/issues
-#
 # Changelog:
 # 2017-02-04 Hosted on GitHub 
-# 2017-02-11 Last Update
-#
+# 2017-02-12 Last Update
 # License:
 # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
 #
@@ -144,4 +141,4 @@
 0.0.0.0 worldtodaybg.com
 0.0.0.0 www.zajenata.bg
 0.0.0.0 zajenata.bg
-# End Unmedia blocklist
+#END Unmedia blocklist
