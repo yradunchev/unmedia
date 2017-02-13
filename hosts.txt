@@ -1,4 +1,4 @@
-#BEGIN Unmedia blocklist
+# BEGINUnmedia
 # Blocking alt-facts and post-truth news sites in Bulgarian
 # Contribute:
 # Create an issue at https://github.com/yradunchev/unmedia/issues
@@ -99,6 +99,10 @@
 0.0.0.0 onovini.com
 0.0.0.0 www.ovarna.bg
 0.0.0.0 ovarna.bg
+0.0.0.0 www.pan.bg
+0.0.0.0 pan.bg
+0.0.0.0 www.paralelnews.bg
+0.0.0.0 paralelnews.bg
 0.0.0.0 www.petel.bg
 0.0.0.0 petel.bg
 0.0.0.0 www.pik.bg
@@ -113,6 +117,8 @@
 0.0.0.0 rusofili.bg
 0.0.0.0 www.skafeto.com
 0.0.0.0 skafeto.com
+0.0.0.0 www.snaiper-bg.net
+0.0.0.0 snaiper-bg.net
 0.0.0.0 www.sofiautre.bg
 0.0.0.0 sofiautre.bg
 0.0.0.0 www.sosnovini.bg
@@ -131,6 +137,8 @@
 0.0.0.0 tetradka.eu
 0.0.0.0 www.vestnikataka.bg
 0.0.0.0 vestnikataka.bg
+0.0.0.0 www.vestnikzora.com
+0.0.0.0 vestnikzora.com
 0.0.0.0 www.velikabulgaria.eu
 0.0.0.0 velikabulgaria.eu
 0.0.0.0 www.vlasti.bg
@@ -141,4 +149,4 @@
 0.0.0.0 worldtodaybg.com
 0.0.0.0 www.zajenata.bg
 0.0.0.0 zajenata.bg
-#END Unmedia blocklist
+# ENDUnmedia
