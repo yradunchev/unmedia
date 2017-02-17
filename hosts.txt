@@ -4,7 +4,7 @@
 # Create an issue at https://github.com/yradunchev/unmedia/issues
 # Changelog:
 # 2017-02-04 Hosted on GitHub 
-# 2017-02-12 Last Update
+# 2017-02-17 Last Update
 # License:
 # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
 #
@@ -135,6 +135,8 @@
 0.0.0.0 svobodnoslovo.eu
 0.0.0.0 www.tetradka.eu
 0.0.0.0 tetradka.eu
+0.0.0.0 www.topactualno.com
+0.0.0.0 topactualno.com
 0.0.0.0 www.vestnikataka.bg
 0.0.0.0 vestnikataka.bg
 0.0.0.0 www.vestnikzora.com
