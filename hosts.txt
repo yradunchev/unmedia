@@ -4,7 +4,7 @@
 # Create an issue at https://github.com/yradunchev/unmedia/issues
 # Changelog:
 # 2017-02-04 Hosted on GitHub 
-# 2017-02-17 Last Update
+# 2017-02-20 Last Update
 # License:
 # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
 #
@@ -12,6 +12,8 @@
 0.0.0.0 www.19min.bg
 0.0.0.0 30dumi.eu
 0.0.0.0 www.30dumi.eu
+0.0.0.0 www.allnews.bg
+0.0.0.0 allnews.bg
 0.0.0.0 afera.bg
 0.0.0.0 www.afera.bg
 0.0.0.0 alterinformation.wordpress.com
@@ -67,6 +69,8 @@
 0.0.0.0 hipotezi.com
 0.0.0.0 www.hristiqni.com
 0.0.0.0 hristiqni.com
+0.0.0.0 www.klassa.bg
+0.0.0.0 klassa.bg
 0.0.0.0 www.koch.bg
 0.0.0.0 koch.bg
 0.0.0.0 www.komentari.com
