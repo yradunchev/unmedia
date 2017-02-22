@@ -99,6 +99,8 @@
 0.0.0.0 novini.cc
 0.0.0.0 www.novinar888.com
 0.0.0.0 novinar888.com
+0.0.0.0 www.novotopoznanie.com
+0.0.0.0 novotopoznanie.com
 0.0.0.0 www.onovini.com
 0.0.0.0 onovini.com
 0.0.0.0 www.ovarna.bg
