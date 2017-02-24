@@ -63,6 +63,8 @@
 0.0.0.0 gol.bg
 0.0.0.0 www.gospodari.com
 0.0.0.0 gospodari.com
+0.0.0.0 www.gudelnews.com
+0.0.0.0 gudelnews.com
 0.0.0.0 www.hashtag-bg.com
 0.0.0.0 hashtag-bg.com
 0.0.0.0 www.hipotezi.com
