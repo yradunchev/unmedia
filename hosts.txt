@@ -104,6 +104,8 @@
 0.0.0.0 newsbp.com
 0.0.0.0 www.news-front.info
 0.0.0.0 news-front.info
+0.0.0.0 www.newsmaker.bg
+0.0.0.0 newsmaker.bg
 0.0.0.0 www.no-comment.bg
 0.0.0.0 no-comment.bg
 0.0.0.0 www.novini.cc
