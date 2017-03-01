@@ -50,7 +50,10 @@
 0.0.0.0 bulgaria365.info
 0.0.0.0 www.chujdozemec.com
 0.0.0.0 chujdozemec.com
+0.0.0.0 www.cross.bg
+0.0.0.0 corss.bg
 0.0.0.0 www.dailypress.bg
+0.0.0.0 dailypress.bg
 0.0.0.0 www.delo.bg
 0.0.0.0 delo.bg
 0.0.0.0 desinfowar.wordpress.com
