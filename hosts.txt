@@ -83,6 +83,8 @@
 0.0.0.0 hotarena.net
 0.0.0.0 www.hristiqni.com
 0.0.0.0 hristiqni.com
+0.0.0.0 www.inter-view.info
+0.0.0.0 inter-view.info
 0.0.0.0 www.klassa.bg
 0.0.0.0 klassa.bg
 0.0.0.0 www.koch.bg
@@ -167,6 +169,8 @@
 0.0.0.0 tetradka.eu
 0.0.0.0 www.topactualno.com
 0.0.0.0 topactualno.com
+0.0.0.0 www.vchas.net
+0.0.0.0 vchas.net
 0.0.0.0 www.vestnikataka.bg
 0.0.0.0 vestnikataka.bg
 0.0.0.0 www.vestnikzora.com
