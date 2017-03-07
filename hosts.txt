@@ -12,6 +12,8 @@
 0.0.0.0 www.19min.bg
 0.0.0.0 30dumi.eu
 0.0.0.0 www.30dumi.eu
+0.0.0.0 7dnibansko.bg
+0.0.0.0 www.7dnibansko.bg
 0.0.0.0 www.allnews.bg
 0.0.0.0 allnews.bg
 0.0.0.0 afera.bg
