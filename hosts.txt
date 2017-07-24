@@ -67,7 +67,7 @@
 0.0.0.0 www.bulpress.top
 0.0.0.0 bulpress.top
 0.0.0.0 www.bulpress.xyz
-0.0.0.0 bulpress.biz
+0.0.0.0 bulpress.xyz
 0.0.0.0 www.bulpress.info
 0.0.0.0 bulpress.info 
 0.0.0.0 www.bultimes.bg

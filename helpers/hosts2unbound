@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# Update the dummy ads block
+#
+# From http://www.bentasker.co.uk/documentation/linux/279-unbound-adding-custom-dns-records
+
+#0.0.0.0 19min.bg
+
+#local-zone: "101com.com" redirect
+#local-data: "101com.com A 127.0.0.1"
+
+
+#cd /etc/unbound/local.d/
+rm ads.conf
+IFS=$'\n' 
+for a in `wget -O - "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`; do 
+  echo "local-zone: \"${a#* }\" redirect" >> ads.conf;
+  echo "local-data: \"${a#* } A 0.0.0.0\"" >> ads.conf
+done
+
+#  service unbound reload
