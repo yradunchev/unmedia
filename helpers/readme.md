@@ -1,4 +1,4 @@
-####hosts2unbound:
+#### hosts2unbound:   
 Скрипта взима от Github последната актуална версия на hosts.txt файла и генерира unmedia.conf
 файл, който може да бъде включен в конфигурацията на [unbound](https://unbound.net/):   
 `include: /path/to/unmedia.conf`   
