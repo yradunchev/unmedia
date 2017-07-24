@@ -1,21 +1,28 @@
-#!/bin/bash
-#
-# Update the dummy ads block
-#
-# From http://www.bentasker.co.uk/documentation/linux/279-unbound-adding-custom-dns-records
+#!/bin/bash -
 
-#0.0.0.0 19min.bg
+#===============================================================================
+#        AUTHOR: Yordan Radunchev (), yordan@radunchev.com
+#       CREATED: 2017-07-24 17:06
+#      REVISION:  001
+#===============================================================================
 
-#local-zone: "101com.com" redirect
-#local-data: "101com.com A 127.0.0.1"
-
-
-#cd /etc/unbound/local.d/
-rm ads.conf
+# unbound config directory, chahge if you want
+ucfg=/etc/unbound
+# root?
+[ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
+# backup old unmedia.conf file
+[ -f ${ucfg}/unmedia.conf ] && mv ${ucfg}/unmedia.conf ${ucfg}/unmedia.conf.back
+# change IFS to new line
 IFS=$'\n' 
-for a in `wget -O - "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`; do 
-  echo "local-zone: \"${a#* }\" redirect" >> ads.conf;
-  echo "local-data: \"${a#* } A 0.0.0.0\"" >> ads.conf
+# read hosts.txt line by line from github
+for a in `wget -O - "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`;
+do 
+  # skip comment lines
+  case "$a" in \#*) continue ;; esac 
+  # write local-zone redirect and local-data A record for each URL in hosts.txt
+  echo "local-zone: \"${a#* }\" redirect" >> ${ucfg}/unmedia.conf;
+  echo "local-data: \"${a#* } A 0.0.0.0\"" >> ${ucfg}/unmedia.conf;
 done
 
-#  service unbound reload
+# restart unbound
+systemctl restart unbound
