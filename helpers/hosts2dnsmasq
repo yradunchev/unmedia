@@ -7,7 +7,7 @@
 #===============================================================================
 
 # where to store hosts.txt
-ucfg=./unmedia.conf
+ucfg=/etc/unmedia.conf
 # root?
 [ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
 # backup old unmedia.conf file
@@ -15,5 +15,5 @@ ucfg=./unmedia.conf
 # download hosts.txt
 wget -O ${ucfg} "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt";
 # restart dnsmasq
-echo "killall dnsmasq"
-echo "dnsmasq --addn-hosts=${ucfg}"
+killall dnsmasq
+dnsmasq --addn-hosts=${ucfg}
