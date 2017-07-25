@@ -34,3 +34,6 @@ helpers/hosts2unbound:
 helpers/hosts2dnsmasq
 
 Като hosts2unbound ама за dnsmasq.
+Сваля hosts файла, рестартира dnsmasq с опцията --addn-hosts=, за да зареди И hosts.txt
+Подходящо за рутери, които използват dnsmasq (OpenWRT, DD-WRT, etc.)
+
