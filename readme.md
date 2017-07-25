@@ -30,3 +30,7 @@ helpers/hosts2unbound:
 който може да бъде включен в конфигурацията на unbound (include: /path/to/unmedia.conf). Подходящо
 за рутери, на които е инсталиран unbound. Скрипта трябва да се изпълнява като root и може да бъде
 конфигуриран като cron задача.
+
+helpers/hosts2dnsmasq
+
+Като hosts2unbound ама за dnsmasq.
