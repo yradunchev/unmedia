@@ -1,0 +1,28 @@
+#!/bin/bash -
+
+#===============================================================================
+#        AUTHOR: Yordan Radunchev (), yordan@radunchev.com
+#       CREATED: 2017-07-25 23:40
+#      REVISION:  001
+#===============================================================================
+
+# dnsmasq config directory, chahge if you want
+ucfg=/etc/unmedia.conf
+# root?
+[ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
+# backup old unmedia.conf file
+[ -f ${ucfg} ] && mv ${ucfg} ${ucfg}.back
+# change IFS to new line
+IFS=$'\n' 
+# read hosts.txt line by line from github
+for a in `wget -O - "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`;
+do 
+  # skip comment lines
+  case "$a" in \#*) continue ;; esac 
+  # write local-zone redirect and local-data A record for each URL in hosts.txt
+  echo "address=\"/${a#* }/0.0.0.0\"" >> ${ucfg}
+done
+
+# restart dnsmasq
+killall dnsmasq
+dnsmasq --conf-file=${ucfg}
