@@ -173,6 +173,8 @@
 0.0.0.0 pogled.info
 0.0.0.0 www.politikata.net
 0.0.0.0 politikata.net
+0.0.0.0 www.rns.bg
+0.0.0.0 rns.bg
 0.0.0.0 www.rusiadnes.bg
 0.0.0.0 rusiadnes.bg
 0.0.0.0 www.rusofili.bg
