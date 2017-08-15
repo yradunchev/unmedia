@@ -33,6 +33,6 @@ _**ВНИМАНИЕ**_: съдържанието на hosts.txt следва д�
 **helpers/hosts2dnsmasq**
 
 Като hosts2unbound ама за dnsmasq.   
-Сваля hosts файла, рестартира dnsmasq с опцията --addn-hosts=, за да зареди И hosts.txt
+Сваля hosts файла, рестартира [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) с опцията --addn-hosts=, за да зареди И hosts.txt
 Подходящо за рутери, които използват dnsmasq (OpenWRT, DD-WRT,
 etc.)
