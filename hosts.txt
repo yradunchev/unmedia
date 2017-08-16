@@ -97,6 +97,8 @@
 0.0.0.0 epicenter.bg
 0.0.0.0 www.e-vesti.co.uk
 0.0.0.0 e-vesti.co.uk
+0.0.0.0 www.glasove.com
+0.0.0.0 glasove.com
 0.0.0.0 www.gledaite.me
 0.0.0.0 gledaite.me
 0.0.0.0 www.gol.bg
