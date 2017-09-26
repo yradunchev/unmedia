@@ -137,6 +137,8 @@
 0.0.0.0 mejdu-redovete.com
 0.0.0.0 www.mignews.info
 0.0.0.0 mignews.info
+0.0.0.0 monitor.bg
+0.0.0.0 www.monitor.bg
 0.0.0.0 www.nakafe.eu
 0.0.0.0 nakafe.eu
 0.0.0.0 www.nbox.bg
