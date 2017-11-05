@@ -16,7 +16,7 @@ ucfg=/etc/unmedia.conf
 IFS=$'\n' 
 # read hosts.txt line by line from github
 #for a in `wget -q -O - "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`;
-for a in $(curl -s "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt");
+for a in $(curl -s "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.src");
 do 
   # skip comment lines
   case "$a" in \#*) continue ;; esac 

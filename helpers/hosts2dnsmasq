@@ -13,7 +13,7 @@ ucfg=/etc/unmedia.conf
 # backup old unmedia.conf file
 [ -f ${ucfg} ] && mv ${ucfg} ${ucfg}.back
 # download hosts.txt
-wget -O ${ucfg} "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt";
+wget -O ${ucfg} "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.src";
 # restart dnsmasq
 killall dnsmasq
 dnsmasq --addn-hosts=${ucfg}
