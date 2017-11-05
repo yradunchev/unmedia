@@ -7,7 +7,7 @@
 #===============================================================================
 
 # unbound config directory, chahge if you want
-ucfg=/etc/unbound
+ucfg=/etc/unmedia.conf
 # root?
 [ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
 # backup old unmedia.conf file
@@ -16,7 +16,7 @@ ucfg=/etc/unbound
 IFS=$'\n' 
 # read hosts.txt line by line from github
 #for a in `wget -q -O - "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`;
-for a in `curl -s "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt"`;
+for a in $(curl -s "https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.txt");
 do 
   # skip comment lines
   case "$a" in \#*) continue ;; esac 
