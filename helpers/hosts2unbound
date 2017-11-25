@@ -7,7 +7,7 @@
 #===============================================================================
 
 # unbound config directory, chahge if you want
-ucfg=/etc/unmedia.conf
+ucfg=/etc/unbound
 # root?
 [ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
 # backup old unmedia.conf file
