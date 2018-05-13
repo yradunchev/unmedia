@@ -8,7 +8,7 @@
 
 # root?
 [ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
-# backup old unmedia.conf file
+# backup /etc/hosts file
 [ -f /etc/hosts ] && cp /etc/hosts /etc/hosts.back
 # remove old Unmedia entires
 sed -i '/#BUnmedia/,/EUnmedia/d' /etc/hosts
