@@ -1,0 +1,16 @@
+#!/bin/bash -
+
+#===============================================================================
+#        AUTHOR: Yordan Radunchev (), yordan@radunchev.com
+#       CREATED: 2018-05-13 13:20
+#      REVISION:  001
+#===============================================================================
+
+# root?
+[ "$EUID" -ne 0 ] && { echo "Please run as root."; exit 2; }
+# backup old unmedia.conf file
+[ -f /etc/hosts ] && cp /etc/hosts /etc/hosts.back
+# remove old Unmedia entires
+sed -i '/#BUnmedia/,/EUnmedia/d' /etc/hosts
+# add new Unmedia entries
+curl https://raw.githubusercontent.com/yradunchev/unmedia/master/hosts.src >> /etc/hosts
