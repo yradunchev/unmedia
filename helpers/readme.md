@@ -32,4 +32,16 @@ Mikrotik. hosts2mikrotik трябва да се инсталира на Mikrotik
 / system script edit hosts2mikrotik source
 ```
 копирайте съдържанието на [hosts2mikrotik](https://github.com/yradunchev/unmedia/blob/master/helpers/hosts2mikrotik.scr)
-и го пейстнете в конзолата, запишете с ctrl+o. 
+и го пейстнете в конзолата, запишете с ctrl+o. Стартирайте hosts2mikrotik:
+```
+/ system script run hosts2mikrotik
+```
+Може да проверите дали са добавени статичните dns записи:
+```
+/ ip dns static print
+```
+Можете да добавите скрипта в scheduler:
+```
+/ system scheduler add interval=7d name="unmedia-update" on-event=hosts2mikrotik
+```
+
