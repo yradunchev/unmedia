@@ -15,6 +15,6 @@
   
 :log info ("Updating script: " . $Script);
   / system script set source=$SourceNew $Script;
-:log info ("Updating static DNS records.";
+:log info ("Updating static DNS records.");
   / system script run $Script;
         
