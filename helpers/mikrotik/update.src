@@ -1,0 +1,13 @@
+:if ($Ignore = 0) do={
+  :log debug ("Fetching script from url: " . $ScriptName);
+  :do {
+    :local Result [ /tool fetch check-certificate=yes-without-crl \
+    () output=user as-value ];
+    :if ($Result->"status" = "finished") do={
+      :set SourceNew ($Result->"data");
+      } 
+      } on-error={
+        :log info ("Failed fetching" . $ScriptName);
+        }
+        }
+        
