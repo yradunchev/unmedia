@@ -1,0 +1,20 @@
+:local Script "unmedia";
+:local ScriptUrl "https://raw.githubusercontent.com/yradunchev/unmedia/master/mikrotik/unmedia.src";
+:local SourceNew;
+
+:log info ("Fetching script from url: " . $ScriptUrl);
+  :do {
+    :local Result [ / tool fetch check-certificate=yes-without-crl \
+    ($ScriptUrl) output=user as-value ];
+    :if ($Result->"status" = "finished") do{
+      :set SourceNew ($Result->"data");
+    } 
+  } on-error={
+        :log info ("Failed fetching" . $ScriptURL);
+  }
+  
+:log info ("Updating script: " . $Script);
+  / system script set source=$SourceNew $Script;
+:log info ("Updating static DNS records.";
+  / system script run $Script;
+        
