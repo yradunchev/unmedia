@@ -18,5 +18,5 @@ for a in $(curl -s "https://raw.githubusercontent.com/yradunchev/unmedia/master/
     # skip comment lines
     case "$a" in \#*) continue ;; esac 
     # write local-zone redirect and local-data A record for each URL in hosts.txt
-  echo "add address=0.0.0.0 name=${a#* } comment=\"unmedia\"" >> ${ucfg};
+  echo "add address=127.0.0.0 name=${a#* } comment=\"unmedia\"" >> ${ucfg};
 done
