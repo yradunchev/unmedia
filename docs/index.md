@@ -54,7 +54,7 @@ Mikrotik. hosts2mikrotik трябва да се инсталира на Mikrotik
 _Как да инсталирате hosts2mikrotik на рутера си и да го подготвите за работа:_   
 На конзолата на Mikrotik изпълнете следните команди:
 ```
-/ system script add name=unmedia.src
+/ system script add name=unmedia
 / system script add name=hosts2mikrotik
 / system script edit hosts2mikrotik source
 ```
