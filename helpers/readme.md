@@ -16,3 +16,7 @@ GitHub и го добавя към /etc/hosts.
 Сваля hosts.txt файла, рестартира dnsmasq с опцията --addn-hosts=, за да зареди И hosts.txt
 Подходящо за рутери, които използват dnsmasq (OpenWRT, DD-WRT, etc.)
 Скрипта трябва да се изпълнява като root и може да бъде конфигуриран като cron задача.
+
+#### mikrotik:
+hosts2mikrotik.src тегли от GitHub unmedia.src скрипт и го изпълнява, за да ъпдейтне статичните записи в dns на
+Mikrotik.
