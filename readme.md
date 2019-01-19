@@ -41,3 +41,9 @@ helpers/hosts2dnsmasq
 Сваля hosts файла, рестартира dnsmasq с опцията --addn-hosts=, за да зареди И hosts.txt
 Подходящо за рутери, които използват dnsmasq (OpenWRT, DD-WRT, etc.)
 
+helpers/hosts2mikrotik:   
+
+Изтегля от GitHub [unmedia.src](https://github.com/yradunchev/unmedia/blob/master/mikrotik/unmedia.src) 
+скрипт и го изпълнява, за да ъпдейтне статичните записи в dns на Mikrotik. 
+hosts2mikrotik трябва да се инсталира на Mikrotik рутера и да се изпълнява през scheduler на
+определен интервал от време.
