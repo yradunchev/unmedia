@@ -1,13 +1,3 @@
-#BUnmedia
-# Blocking alt-facts and post-truth news sites in Bulgarian
-# Contribute:
-# Create an issue at https://github.com/yradunchev/unmedia/issues
-# Changelog:
-# 2017-02-04 Hosted on GitHub 
-# 2020-01-27 Last Update
-# License:
-# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
-#
 0.0.0.0 19min.bg
 0.0.0.0 30dumi.eu
 0.0.0.0 7dnibansko.bg
@@ -91,6 +81,7 @@
 0.0.0.0 mignews.info
 0.0.0.0 monitor.bg
 0.0.0.0 nakafe.eu
+0.0.0.0 narod.bg
 0.0.0.0 nbox.bg
 0.0.0.0 news-front.info
 0.0.0.0 news7.eu
@@ -102,8 +93,10 @@
 0.0.0.0 novotopoznanie.com
 0.0.0.0 obektivno.com
 0.0.0.0 onovini.com
+0.0.0.0 onovini.eu
 0.0.0.0 ovarna.bg
 0.0.0.0 pan.bg
+0.0.0.0 paralel42.com
 0.0.0.0 paralelnews.bg
 0.0.0.0 patrioti.net
 0.0.0.0 peshakoffstudio.com
@@ -223,6 +216,7 @@
 0.0.0.0 www.mignews.info
 0.0.0.0 www.monitor.bg
 0.0.0.0 www.nakafe.eu
+0.0.0.0 www.narod.bg
 0.0.0.0 www.nbox.bg
 0.0.0.0 www.news-front.info
 0.0.0.0 www.newsbp.com
@@ -233,8 +227,10 @@
 0.0.0.0 www.novotopoznanie.com
 0.0.0.0 www.obektivno.com
 0.0.0.0 www.onovini.com
+0.0.0.0 www.onovini.eu
 0.0.0.0 www.ovarna.bg
 0.0.0.0 www.pan.bg
+0.0.0.0 www.paralel42.com
 0.0.0.0 www.paralelnews.bg
 0.0.0.0 www.patrioti.net
 0.0.0.0 www.peshakoffstudio.com
@@ -273,12 +269,13 @@
 0.0.0.0 www.vlasti.bg
 0.0.0.0 www.webnovinar.com
 0.0.0.0 www.worldtodaybg.com
+0.0.0.0 www.xaknews.com
 0.0.0.0 www.youcomments.com
 0.0.0.0 www.zadkulisite.com
 0.0.0.0 www.zajenata.bg
 0.0.0.0 www.zona666.com
+0.0.0.0 xaknews.com
 0.0.0.0 youcomments.com
 0.0.0.0 zadkulisite.com
 0.0.0.0 zajenata.bg
 0.0.0.0 zona666.com
-#EUnmedia
