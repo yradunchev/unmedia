@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cat << EOF > file.txt
+/ip dns static remove [find comment="unmedia"]
+/ip dns static
+EOF
+n=1
+while read line; do
+  if test $n -gt 11
+  then
+    array=( $line )
+    printf 'add address=127.0.0.1 name=%s comment="unmedia"\n' ${array[1]} >>file.txt
+  fi
+  n=$((n+1))
+done < $1
