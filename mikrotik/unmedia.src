@@ -1,6 +1,5 @@
 /ip dns static remove [find comment="unmedia"]
 /ip dns static
-add address=127.0.0.1 name=*.novinarbg.com comment="unmedia"
 add address=127.0.0.1 name=19min.bg comment="unmedia"
 add address=127.0.0.1 name=30dumi.eu comment="unmedia"
 add address=127.0.0.1 name=7dnibansko.bg comment="unmedia"
